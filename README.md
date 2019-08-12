@@ -18,9 +18,9 @@ Quickstart polyglot templates to launch your next web application (includes web 
 ## Python (TBA)
 **Web Server**: [Nginx](https://www.nginx.com/)
 
-**Application Server**: [aiohttp](https://aiohttp.readthedocs.io/en/v0.18.2/index.html)
+**Application Server**: [aiohttp](https://aiohttp.readthedocs.io/en/v0.18.2/index.html) (NOTE: No HTTP/2 support yet)
 
-**Web Framework**: [aiohttp](https://aiohttp.readthedocs.io/en/v0.18.2/index.html)
+**Web Framework**: [aiohttp](https://aiohttp.readthedocs.io/en/v0.18.2/index.html) (NOTE: No HTTP/2 support yet)
 
 ## Node.js (TBA)
 **Web Server**: [Nginx](https://www.nginx.com/)
