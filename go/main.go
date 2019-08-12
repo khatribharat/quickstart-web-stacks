@@ -9,6 +9,11 @@ import (
 
 func main() {
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+        defer func() {
+            if r := recover(); r != nil {
+                w.Write([]byte("Server encountered an error"))
+            }
+        }()
         data := struct {
             CurrentTime string
         }{
